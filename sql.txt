@@ -1,0 +1,6 @@
+1. SELECT * FROM Employees order by lastname;
+2.SELECT * FROM suppliers where supplierName like 'N%'
+3.SELECT  orderdetails.orderID,orderdetails.productId,(orderdetails.quantity*products.price) as Sales FROM 
+products inner join orderdetails on orderdetails.productId=products.productid  
+
+
