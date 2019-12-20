@@ -1,0 +1,70 @@
+2019-12-20 10:09:58 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:11:04 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:11:04 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:11:04 ERROR BaseTest:60 - 
+2019-12-20 10:11:04 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:15:58 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:15:58 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:15:58 ERROR BaseTest:60 - 
+2019-12-20 10:15:58 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:18:37 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:18:37 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:18:37 ERROR BaseTest:60 - 
+2019-12-20 10:18:37 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:20:56 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:20:56 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:20:56 ERROR BaseTest:60 - 
+2019-12-20 10:20:56 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:21:25 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:21:25 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:21:25 ERROR BaseTest:60 - 
+2019-12-20 10:21:25 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:22:46 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:22:46 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:22:46 ERROR BaseTest:60 - 
+2019-12-20 10:22:46 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:24:22 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:24:22 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:24:22 ERROR BaseTest:60 - 
+2019-12-20 10:24:22 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:24:22 ERROR BaseTest:32 - 
+2019-12-20 10:24:22 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:25:27 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:25:27 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:25:27 ERROR BaseTest:60 - 
+2019-12-20 10:25:27 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:25:27 ERROR BaseTest:32 - 
+2019-12-20 10:25:27 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:30:18 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:30:18 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:30:18 INFO  BaseTest:52 - setupTest0 :  webdriver.gecko.driver
+2019-12-20 10:30:18 INFO  BaseTest:53 - setupTest1 :  null
+2019-12-20 10:30:18 ERROR BaseTest:66 - 
+2019-12-20 10:30:18 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:30:18 ERROR BaseTest:32 - 
+2019-12-20 10:30:18 INFO  BaseTest:80 - closeBrowser :  
+2019-12-20 10:33:47 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:33:47 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:33:47 INFO  BaseTest:52 - setupTest0 :  webdriver.gecko.driver
+2019-12-20 10:33:47 INFO  BaseTest:53 - setupTest1 :  null
+2019-12-20 10:33:47 ERROR BaseTest:66 - 
+2019-12-20 10:33:47 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:33:47 ERROR BaseTest:32 - 
+2019-12-20 10:33:47 INFO  BaseTest:80 - closeBrowser :  
+2019-12-20 10:35:14 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:35:14 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:35:50 ERROR BaseTest:59 - 
+2019-12-20 10:35:50 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:36:10 ERROR BaseTest:32 - 
+2019-12-20 10:36:10 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:37:40 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:37:40 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:38:16 ERROR BaseTest:59 - 
+2019-12-20 10:38:16 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:38:37 ERROR BaseTest:32 - 
+2019-12-20 10:38:37 INFO  BaseTest:73 - closeBrowser :  
+2019-12-20 10:39:32 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-20 10:39:32 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-20 10:40:10 ERROR BaseTest:59 - 
+2019-12-20 10:40:10 INFO  BaseTest:24 - Starting the test :login  
+2019-12-20 10:40:31 INFO  BaseTest:73 - closeBrowser :  
