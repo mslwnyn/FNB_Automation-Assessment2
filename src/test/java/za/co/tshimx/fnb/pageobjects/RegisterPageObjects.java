@@ -20,40 +20,55 @@ import za.co.tshimx.fnb.testcases.BaseTest;
 public class RegisterPageObjects extends BaseTest{
     WebDriver driver;
     
-//    @FindBy(how=How.XPATH , using="title")
-//    WebElement title;
     
-    @FindBy(how=How.ID  , using="first_name")
+    @FindBy(how=How.XPATH , using="//*[@class='select-dropdown' and @value='MR']")        
+    WebElement titleElement;
+    
+    @FindBy(how=How.XPATH  , using="//*[@id='first_name']")
     WebElement firstName;
     
-    @FindBy(how=How.ID  , using="surname")
+    @FindBy(how=How.XPATH  , using="//*[@id='surname']")
     WebElement surname;
-    @FindBy(how=How.ID  , using="phone")
+    @FindBy(how=How.XPATH  , using="//*[@id='phone']")
     WebElement mobileNumber; 
     
-    @FindBy(how=How.ID  , using="email")
+    @FindBy(how=How.XPATH  , using="//*[@id='email']")
     WebElement email;
     
-    @FindBy(how=How.ID  , using="password")
+    @FindBy(how=How.XPATH  , using="//*[@id='password']")
     WebElement password;
     
-    @FindBy(how=How.ID  , using="username")
+    @FindBy(how=How.XPATH  , using="//*[@id='username']")
     WebElement username;
     
-    @FindBy(how=How.ID  , using="password")
-    WebElement citizen;
+    @FindBy(how=How.XPATH  , using="//*[@class='select-dropdown' and @value='Yes']")
+    WebElement citizenElement;
     
-    @FindBy(how=How.ID  , using="sa_id")
+    @FindBy(how=How.XPATH  , using="//*[@id='sa_id']")
     WebElement rsaID;
     
-    @FindBy(how=How.ID  , using="")
-    WebElement product;
     
-    @FindBy(how=How.ID  , using="")
+    @FindBy(how=How.XPATH  , using="//input[@id='local-trading']")  
+    WebElement product1;
+    
+           
+    @FindBy(how=How.XPATH  , using="//input[@id='cfd-trading']")
+    WebElement product2;
+
+    
+    @FindBy(how=How.XPATH  , using="//input[@id='offshore-trading']")
+    WebElement product3;
+    
+    
+   @FindBy(how=How.XPATH  , using="//input[@id='both-product']")
+   WebElement product4;
+    
+   
+    @FindBy(how=How.XPATH  , using="//*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']")
     WebElement captcha;
     
-     @FindBy(how=How.ID  , using="")
-    WebElement submitButton;
+     @FindBy(how=How.XPATH  , using="//*[@class='waves-effect waves-light btn']")
+     WebElement submitButton;
     
     //
     public RegisterPageObjects (WebDriver driver ){
@@ -61,9 +76,9 @@ public class RegisterPageObjects extends BaseTest{
     }
 
     public void setTitle(String title ) {
-        Select t = new Select(driver.findElement(By.xpath("//label[starts-with(@id,'select-options')]")));
-        t.selectByVisibleText(title);
-        
+        titleElement.click();
+        driver.findElement(By.xpath("//span[text()='"+title+"']")).click();
+       
     }
 
     public void setFirstName(String firstName) {
@@ -94,19 +109,34 @@ public class RegisterPageObjects extends BaseTest{
     }
 
     public void setCitizen(String citizen) {
-        Select s = new Select(driver.findElement(By.xpath("//label[starts-with(@id,'select-options')]")));
-        s.selectByVisibleText(citizen);
+        citizenElement.click();
+        driver.findElement(By.xpath("//span[text()='"+citizen+"']")).click();
        
     }  
-    public void selectProduct() {
-        this.product.click();
+    public void RsaIDClear() {
+        this.rsaID.clear();
     }
+    public void selectProduct1() {
+        this.product1.click();
+    }
+    
+    public void selectProduct2() {
+        this.product2.click();
+    }
+    
+    public void selectProduct3() {
+        this.product3.click();
+    }
+    
+    public void selectProduct4() {
+        this.product4.click();
+    }
+       
     
     public void checkCaptcha() {
         this.captcha.click();
     }
-    
-    
+ 
     public void submitForm() {
         this.submitButton.click();
     }

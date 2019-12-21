@@ -23,7 +23,7 @@ public class MobileNumberGenerator {
         num3 = getRandomNumberInRange(1,7);
         set2 = getRandomNumberInRange(100,999);
         set3 = getRandomNumberInRange(1000,9999);
-        return ""+num1+"" + num2 + "" + num3 +  " " + set2 + " " + set3 ;
+        return ""+num1+"" + num2 + "" + num3 +  "" + set2 + "" + set3 ;
     }
   
     private static int getRandomNumberInRange(int min, int max) {

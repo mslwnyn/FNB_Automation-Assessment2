@@ -52,9 +52,9 @@ public class BaseTest {
                 System.setProperty(env_prop.getProperty("firefox.webdriver.key"), env_prop.getProperty("firefox.webdriver.value"));
                 driver = new FirefoxDriver();
                 driver.get(env_prop.getProperty("web.url"));
-                Thread.sleep(20000);
-                String screenshotPath = BaseTest.getScreenshot(driver, "screenshot_");
-                ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath));
+                Thread.sleep(5000);
+               // String screenshotPath = BaseTest.getScreenshot(driver, "screenshot_");
+               // ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath));
             } catch (Exception e) {
                 logger.error(e.getMessage());
                 e.printStackTrace();
@@ -89,6 +89,15 @@ public class BaseTest {
         File finalDestination = new File(destination);
         FileUtils.copyFile(source, finalDestination);
         return destination;
+    }
+    
+    
+    public static void takescreenshot() throws Exception{
+        
+        String screenshotPath6 = BaseTest.getScreenshot(driver, "screenshot_");
+        ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath6));
+             
+             
     }
 
 }

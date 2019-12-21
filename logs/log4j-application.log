@@ -68,3 +68,532 @@
 2019-12-20 10:40:10 ERROR BaseTest:59 - 
 2019-12-20 10:40:10 INFO  BaseTest:24 - Starting the test :login  
 2019-12-20 10:40:31 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:08:45 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:08:45 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:09:29 ERROR BaseTest:59 - 
+2019-12-21 04:09:29 INFO  BaseTest:24 - Starting the test :login  
+2019-12-21 04:09:49 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:10:43 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:10:43 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:11:19 ERROR BaseTest:59 - 
+2019-12-21 04:11:19 INFO  BaseTest:24 - Starting the test :login  
+2019-12-21 04:11:40 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:23:52 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:23:52 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:24:30 ERROR BaseTest:59 - 
+2019-12-21 04:24:30 INFO  BaseTest:24 - Starting the test :login  
+2019-12-21 04:24:50 INFO  BaseTest:40 - Starting the test :login  
+2019-12-21 04:24:50 ERROR BaseTest:48 - Unable to locate element: //a[@id='openaccount3']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15700, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c6ceab89-3204-42c9-95fe-b02ef9064ddd
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-21 04:24:50 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:25:13 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:25:13 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:25:53 INFO  BaseTest:24 - Starting the test :login  
+2019-12-21 04:26:13 INFO  BaseTest:40 - Starting the test :login  
+2019-12-21 04:26:13 ERROR BaseTest:48 - Unable to locate element: //a[@id='openaccount3']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16152, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1c2fe633-ca14-4786-9cc6-a2c354b477d3
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-21 04:26:13 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:29:55 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:29:55 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:30:31 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:30:52 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:30:52 ERROR BaseTest:92 - Unable to locate element: #\/\/\*\[\@id\=\'phone\'\]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2580, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f89e045e-c54e-45ad-af46-fbbc010dc748
+*** Element info: {Using=id, value=//*[@id='phone']}
+2019-12-21 04:30:52 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:36:03 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:36:03 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:36:42 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:37:02 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:37:03 ERROR BaseTest:92 - Unable to locate element: #\/\/\*\[\@id\=\'phone\'\]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2252, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4f19c0ee-2fb0-4633-9421-f86439dbb56a
+*** Element info: {Using=id, value=//*[@id='phone']}
+2019-12-21 04:37:03 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:43:22 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:43:22 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:43:56 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:44:17 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:44:17 ERROR BaseTest:96 - Unable to locate element: #\/\/\*\[\@id\=\'phone\'\]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17192, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b6eb35fb-4b7f-4521-bb55-30e6c8ebebdd
+*** Element info: {Using=id, value=//*[@id='phone']}
+2019-12-21 04:44:17 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:47:27 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:47:27 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:48:05 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:48:25 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:48:26 ERROR BaseTest:97 - Unable to locate element: #\/\/\*\[\@id\=\'phone\'\]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8024, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 24b5590b-8c87-4288-9e92-f182c4a60d9b
+*** Element info: {Using=id, value=//*[@id='phone']}
+2019-12-21 04:48:26 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:50:50 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:50:50 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:51:27 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:51:33 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:51:34 ERROR BaseTest:97 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12672, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1d9596ce-452a-4931-b2e3-0b1213b4a2ef
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 04:51:34 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:53:18 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:53:18 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:53:53 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:53:59 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:54:00 ERROR BaseTest:97 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14424, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e99fe2cc-0c83-4fd4-8f1f-71c87ec575e5
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 04:54:00 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:55:20 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:55:20 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:55:41 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:55:46 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:55:47 ERROR BaseTest:97 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6196, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 991db06a-568a-4688-9d54-ee96b0ac6a81
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 04:55:47 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 04:56:55 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 04:56:55 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 04:57:19 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 04:57:25 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 04:57:26 ERROR BaseTest:96 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6048, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 92a0786d-c197-42c5-9d83-19a98d2c14f6
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 04:57:26 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:04:25 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:04:25 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:04:51 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:04:56 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 05:04:56 ERROR BaseTest:94 - Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown
+2019-12-21 05:04:56 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:14:01 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:14:01 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:14:23 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:14:29 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 05:14:29 ERROR BaseTest:94 - Unable to locate element: //*[@class='dropdown-content select-dropdown']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7272, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4e3e5f03-b634-407e-afff-17704e2852c2
+*** Element info: {Using=xpath, value=//*[@class='dropdown-content select-dropdown']}
+2019-12-21 05:14:29 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:30:42 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:30:42 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:31:03 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:31:09 INFO  BaseTest:44 - Starting the test :register  
+2019-12-21 05:31:09 ERROR BaseTest:94 - Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown
+2019-12-21 05:31:09 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:32:55 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:32:55 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:33:21 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:33:27 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:33:27 ERROR BaseTest:92 - Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown
+2019-12-21 05:33:27 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:34:14 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:34:14 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:34:34 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:34:40 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:34:41 ERROR BaseTest:93 - Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: unknown
+2019-12-21 05:34:41 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:35:43 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:35:43 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:36:07 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:36:12 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:36:13 ERROR BaseTest:93 - Unable to locate element: //*[@class='dropdown-content select-dropdown']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15544, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d90ee3b8-04b4-4c8a-bd21-a0999f0ba7d0
+*** Element info: {Using=xpath, value=//*[@class='dropdown-content select-dropdown']}
+2019-12-21 05:36:13 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:38:46 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:38:46 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:39:06 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:39:12 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:39:13 ERROR BaseTest:93 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6072, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4bc59ad0-3059-47d6-9340-ea695d28e183
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 05:39:13 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:41:45 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:41:45 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:42:06 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:42:11 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:42:12 ERROR BaseTest:93 - Unable to locate element: //*[@class='select-dropdown' and @value='MR']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11780, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7c434515-dcb3-47a6-863a-7b6620bb4964
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 05:42:13 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:47:35 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:47:35 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:48:03 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:48:08 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:48:10 ERROR BaseTest:93 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14708, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 840b0991-4f6d-4ce2-be03-f7a5d7b28041
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 05:48:11 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:49:44 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:49:44 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:50:05 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:50:11 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:50:13 ERROR BaseTest:93 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17448, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f0ab2b0-5d18-4a57-bffa-cbdaaaa53047
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 05:50:13 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:51:01 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:51:01 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:51:22 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:51:28 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:51:29 ERROR BaseTest:93 - Unable to locate element: //label[starts-with(@id,'select-options')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13420, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fd27a8a6-c5c6-433f-843f-f81784ab2905
+*** Element info: {Using=xpath, value=//label[starts-with(@id,'select-options')]}
+2019-12-21 05:51:30 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 05:55:52 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 05:55:52 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 05:56:14 INFO  BaseTest:26 - Starting the test :login  
+2019-12-21 05:56:20 INFO  BaseTest:42 - Starting the test :register  
+2019-12-21 05:56:22 ERROR BaseTest:93 - Unable to locate element: //*[@id='sa_id']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15436, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 41347315-2778-4a43-bfbd-8d88b632c2d0
+*** Element info: {Using=xpath, value=//*[@id='sa_id']}
+2019-12-21 05:56:22 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:16:09 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:16:09 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:16:30 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:16:36 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:16:36 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2019-12-21 06:16:36 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2019-12-21 06:16:36 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2019-12-21 06:16:36 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2019-12-21 06:16:36 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2019-12-21 06:16:37 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:18:25 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:18:25 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:18:43 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:18:49 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:18:51 ERROR BaseTest:104 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17584, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb7832bd-aeef-492c-a297-289bf370b148
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:18:51 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:21:37 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:21:37 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:21:57 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:22:02 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:22:04 ERROR BaseTest:105 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7632, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bc0d01cb-3dd7-4d47-ba01-38c44a09ae64
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:22:04 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:24:34 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:24:34 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:24:56 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:25:01 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:25:09 ERROR BaseTest:104 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18728, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 36500ad9-4902-4195-b655-37b71174a6d0
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:25:09 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:28:30 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:28:30 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:28:53 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:28:58 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:29:06 ERROR BaseTest:106 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2852, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 697e02a9-9c73-4ad4-b07e-6638687e104a
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:29:06 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:30:53 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:30:53 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:31:16 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:31:22 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:31:30 ERROR BaseTest:107 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19184, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9da8f012-74c3-4cb5-8ded-91712566a194
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:31:30 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:37:27 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:37:27 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:37:47 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:37:52 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:38:00 ERROR BaseTest:110 - Unable to locate element: //*[@ng-message='minlength']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15268, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 22a352fa-cb41-405b-93ae-98b607647604
+*** Element info: {Using=xpath, value=//*[@ng-message='minlength']}
+2019-12-21 06:38:00 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:40:26 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:40:26 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:40:44 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 06:40:50 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 06:40:58 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:45:55 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:45:55 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:46:12 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 06:46:18 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 06:46:23 ERROR BaseTest:112 - Unable to locate element: //*[@ng-message='aiValIdNumber']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19036, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 52b20149-10e4-41f7-b5f9-85195feecc9c
+*** Element info: {Using=xpath, value=//*[@ng-message='aiValIdNumber']}
+2019-12-21 06:46:23 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:47:15 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:47:15 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:47:37 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 06:47:42 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 06:47:51 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 06:50:32 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 06:50:32 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 06:50:52 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 06:50:58 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 06:51:06 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:06:49 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:06:49 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:07:07 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:07:13 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:07:22 ERROR BaseTest:114 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7968, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 79b4232a-2bc4-4d23-9a7f-569a3bc2f310
+2019-12-21 07:07:22 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:11:46 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:11:46 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:12:09 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:12:14 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:12:15 ERROR BaseTest:114 - Element <span> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10564, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 05a6d712-bc9b-45ed-9343-c0bbea739d59
+2019-12-21 07:12:15 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:14:46 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:14:46 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:15:08 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:15:13 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:15:22 ERROR BaseTest:114 - Element <img src="/assets/refresh/images/svg/stock-icon.svg"> is not clickable at point (611,410) because another element <div class="choice-img"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3656, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ad6a0215-6888-42f8-818c-5d8259e8fa64
+2019-12-21 07:15:22 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:24:33 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:24:33 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:24:52 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:24:57 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:25:06 ERROR BaseTest:114 - Element <img src="/assets/refresh/images/svg/stock-icon.svg"> is not clickable at point (553,290) because another element <div class="choice-img"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17660, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 72e9b6d3-529b-4497-a834-4226ac2d03c1
+2019-12-21 07:25:06 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:27:52 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:27:52 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:28:15 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:28:20 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:28:29 ERROR BaseTest:117 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21500, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ac33328-12df-4806-b995-3a8bced805b1
+2019-12-21 07:28:29 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:34:35 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:34:35 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:34:55 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:35:00 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:35:09 ERROR BaseTest:117 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13660, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 041e5b50-672b-4cbb-bc2b-18ed0e16be76
+2019-12-21 07:35:09 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:38:28 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:38:28 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:38:47 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:38:52 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:39:01 ERROR BaseTest:117 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21388, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4f700a3-e34e-4ffb-a3d4-b1b3fd1953ec
+2019-12-21 07:39:01 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:40:33 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:40:33 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:40:55 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:41:00 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:41:09 ERROR BaseTest:117 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19832, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4eb1df89-f604-46de-afdd-6078beb6e521
+2019-12-21 07:41:09 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:42:43 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:42:43 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:43:00 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:43:06 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:43:15 ERROR BaseTest:117 - Element <img src="/assets/refresh/images/svg/stock-icon.svg"> is not clickable at point (611,410) because another element <div class="choice-img"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20324, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ea992008-7e32-420e-b539-818311accb46
+2019-12-21 07:43:15 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:45:25 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:45:25 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:45:43 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:45:48 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:45:57 ERROR BaseTest:117 - Element <img src="/assets/refresh/images/svg/stock-icon.svg"> is not clickable at point (611,410) because another element <div class="choice-img"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17040, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0cd3363d-39fc-4d3c-96dd-520863291d72
+2019-12-21 07:45:57 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 07:54:23 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 07:54:23 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 07:54:43 INFO  BaseTest:31 - Starting the test :login  
+2019-12-21 07:54:49 INFO  BaseTest:47 - Starting the test :register  
+2019-12-21 07:54:57 ERROR BaseTest:117 - Element <img src="/assets/refresh/images/svg/stock-icon.svg"> is not clickable at point (553,290) because another element <div class="choice-img"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17744, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 70139956-2747-490f-8db7-e8e068f4c099
+2019-12-21 07:54:57 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 08:18:00 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 08:18:00 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 08:18:19 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 08:18:25 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 08:18:34 ERROR BaseTest:120 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19236, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13dd7e20-4ce0-4fae-bc5e-3cdfd75e0ee2
+2019-12-21 08:18:34 INFO  BaseTest:73 - closeBrowser :  
