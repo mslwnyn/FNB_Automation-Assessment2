@@ -13,11 +13,16 @@ import java.util.Date;
 import java.util.Properties;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -36,6 +41,7 @@ public class BaseTest {
     static WebDriver driver;
     WebDriverWait wait;
     Properties env_prop;
+    WebElement html;
 
     @BeforeSuite
     public void beforeSuite() throws Exception {
@@ -51,6 +57,9 @@ public class BaseTest {
             try {
                 System.setProperty(env_prop.getProperty("firefox.webdriver.key"), env_prop.getProperty("firefox.webdriver.value"));
                 driver = new FirefoxDriver();
+                driver.manage().window().maximize();
+                //html = driver.findElement(By.tagName("html"));
+                //html.sendKeys(Keys.chord(Keys.CONTROL, Keys.ADD));
                 driver.get(env_prop.getProperty("web.url"));
                 Thread.sleep(5000);
                // String screenshotPath = BaseTest.getScreenshot(driver, "screenshot_");
@@ -62,8 +71,26 @@ public class BaseTest {
         } else if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty(env_prop.getProperty("chrome.webdriver.key"), env_prop.getProperty("chrome.webdriver.value"));
             driver = new ChromeDriver();
+            driver.manage().window().maximize();
+            html = driver.findElement(By.tagName("html"));
+            html.sendKeys(Keys.chord(Keys.CONTROL, Keys.ADD));
             driver.get(env_prop.getProperty("web.url"));
             wait = new WebDriverWait(driver, 40);
+            Thread.sleep(5000);
+        } else if (browser.equalsIgnoreCase("ie")) {
+            System.setProperty(env_prop.getProperty("ie.webdriver.key"), env_prop.getProperty("ie.webdriver.value"));
+            driver = new InternetExplorerDriver();
+            driver.manage().window().maximize();
+            driver.get(env_prop.getProperty("web.url"));
+            wait = new WebDriverWait(driver, 40);
+            Thread.sleep(25000);
+        }else if (browser.equalsIgnoreCase("edge")) {
+            System.setProperty(env_prop.getProperty("edge.webdriver.key"), env_prop.getProperty("edge.webdriver.value"));
+            driver = new EdgeDriver();
+            driver.manage().window().maximize();
+            driver.get(env_prop.getProperty("web.url"));
+            wait = new WebDriverWait(driver, 40);
+            Thread.sleep(5000);
         }
 
     }
@@ -71,6 +98,7 @@ public class BaseTest {
     @AfterTest
     public void closeBrowser() throws InterruptedException {
         logger.info("closeBrowser :  ");
+        html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
       //  driver.quit();
     }
 

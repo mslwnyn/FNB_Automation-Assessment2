@@ -57,7 +57,7 @@ public class HomePageTest extends BaseTest {
 //         registerPage.setUsername(person.getUsername());
 //         registerPage.setPassword(person.getPassword());
 //         registerPage.setCitizen(person.getRsa_citizen());
-            registerPage.setTitle("DR");
+            //registerPage.setTitle("DR");
             registerPage.setEmail("maslwnyn@gmail.com");
             registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
             registerPage.setCitizen("Yes");
@@ -108,13 +108,14 @@ public class HomePageTest extends BaseTest {
 
             takescreenshot();
             // Click Captcha
+            Thread.sleep(3000);
             registerPage.checkCaptcha();
             
             //  code to select captcha images
             Thread.sleep(3000);
             takescreenshot();
             registerPage.submitForm();
-            Thread.sleep(20000);
+            Thread.sleep(3000);
             takescreenshot();
         } catch (Exception e) {
             logger.error(e.getMessage());

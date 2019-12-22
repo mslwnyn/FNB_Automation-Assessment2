@@ -48,29 +48,29 @@ public class RegisterPageObjects extends BaseTest{
     WebElement rsaID;
     
     
-    @FindBy(how=How.XPATH  , using="//input[@id='local-trading']")  
+    
+    @FindBy(how=How.XPATH  , using="//*[text()='Local Trading Account']")         
     WebElement product1;
     
            
-    @FindBy(how=How.XPATH  , using="//input[@id='cfd-trading']")
+    @FindBy(how=How.XPATH  , using="//*[text()='Derivatives Trader']")
     WebElement product2;
 
     
-    @FindBy(how=How.XPATH  , using="//input[@id='offshore-trading']")
+    @FindBy(how=How.XPATH  , using="//*[text()='Global Trading Account (offshore)']")
     WebElement product3;
     
     
-   @FindBy(how=How.XPATH  , using="//input[@id='both-product']")
+   @FindBy(how=How.XPATH  , using="//*[text()='All']")
    WebElement product4;
     
    
-    @FindBy(how=How.XPATH  , using="//*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']")
+    @FindBy(how=How.XPATH  , using="//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']")
     WebElement captcha;
+  
+    @FindBy(how=How.XPATH  , using="//*[@class='waves-effect waves-light btn']")
+    WebElement submitButton;
     
-     @FindBy(how=How.XPATH  , using="//*[@class='waves-effect waves-light btn']")
-     WebElement submitButton;
-    
-    //
     public RegisterPageObjects (WebDriver driver ){
         this.driver = driver;
     }
@@ -78,7 +78,7 @@ public class RegisterPageObjects extends BaseTest{
     public void setTitle(String title ) {
         titleElement.click();
         driver.findElement(By.xpath("//span[text()='"+title+"']")).click();
-       
+        
     }
 
     public void setFirstName(String firstName) {
@@ -138,7 +138,7 @@ public class RegisterPageObjects extends BaseTest{
     }
  
     public void submitForm() {
-        this.submitButton.click();
+       //this.submitButton.click();
     }
     
 }

@@ -42,8 +42,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public synchronized void onTestFailure(ITestResult result) {
-
-     
+    
         ExtentTestManager.getTest().log(LogStatus.FAIL, " Test has failed ");
         ExtentTestManager.getTest().log(LogStatus.FAIL, result.getThrowable());
         ExtentManager.getInstance().flush();

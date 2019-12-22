@@ -597,3 +597,732 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19236, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 13dd7e20-4ce0-4fae-bc5e-3cdfd75e0ee2
 2019-12-21 08:18:34 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 08:24:08 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 08:24:08 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 08:24:27 ERROR BaseTest:59 - Reached error page: about:neterror?e=dnsNotFound&u=https%3A//shares.fnb.co.za/%23%21/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20shares.fnb.co.za.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a4eb6a9-5944-4caa-b90b-d6a9bbdd5a95
+2019-12-21 08:24:27 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 08:24:27 ERROR BaseTest:38 - Unable to locate element: //a[@id='openaccount3']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a4eb6a9-5944-4caa-b90b-d6a9bbdd5a95
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-21 08:24:28 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 08:24:28 ERROR BaseTest:120 - Unable to locate element: //*[@class='select-dropdown' and @value='MR']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a4eb6a9-5944-4caa-b90b-d6a9bbdd5a95
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 08:24:28 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 08:26:12 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 08:26:12 INFO  BaseTest:49 - setupTest :  firefox
+2019-12-21 08:26:37 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 08:26:42 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 08:26:51 ERROR BaseTest:120 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20856, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c02e3c84-0e95-41f0-902d-c135d523e162
+2019-12-21 08:26:51 INFO  BaseTest:73 - closeBrowser :  
+2019-12-21 20:44:34 INFO  BaseTest:42 - Before Suite : loading properties 
+2019-12-21 20:44:34 INFO  BaseTest:49 - setupTest :  chrome
+2019-12-21 20:54:01 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:54:01 INFO  BaseTest:51 - setupTest :  edge
+2019-12-21 20:54:32 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:54:33 INFO  BaseTest:51 - setupTest :  edge
+2019-12-21 20:56:09 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:56:09 INFO  BaseTest:51 - setupTest :  ie
+2019-12-21 20:57:10 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:57:10 INFO  BaseTest:51 - setupTest :  edge
+2019-12-21 20:57:30 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:57:30 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 20:58:44 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 20:58:44 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 21:00:29 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:00:29 INFO  BaseTest:51 - setupTest :  ie
+2019-12-21 21:04:02 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:04:02 INFO  BaseTest:51 - setupTest :  ie
+2019-12-21 21:04:55 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:04:55 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 21:05:42 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:05:42 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 21:06:03 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:06:09 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:06:09 ERROR BaseTest:120 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cd220b92b2fe10ed7641fe787e3a9301
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 21:06:09 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:07:45 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:07:45 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 21:08:02 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:08:08 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:08:08 ERROR BaseTest:120 - element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0837dae88086ee32b58ff7b14fb69f38
+2019-12-21 21:08:08 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:09:04 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:09:04 INFO  BaseTest:51 - setupTest :  chrome
+2019-12-21 21:09:19 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:09:25 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:09:25 ERROR BaseTest:120 - element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 20af97a2ed984800f148998b926675a4
+2019-12-21 21:09:25 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:10:01 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:10:01 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:10:27 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:10:32 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:10:41 ERROR BaseTest:120 - Element <input id="local-trading" name="productType" type="radio"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1108, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62edad00-0122-48d4-8a77-b1a5da048c53
+2019-12-21 21:10:41 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:15:35 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:15:35 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:15:59 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:16:04 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:16:13 ERROR BaseTest:120 - Unable to locate element: //*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13952, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f0ce73a7-3e48-4173-ba07-e4cb093cc2cf
+*** Element info: {Using=xpath, value=//*[@class='recaptcha-checkbox goog-inline-block recaptcha-checkbox-unchecked rc-anchor-checkbox']}
+2019-12-21 21:16:13 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:29:52 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:29:52 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:30:24 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:30:29 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:30:38 ERROR BaseTest:120 - Unable to locate element: //*[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13356, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a49a115d-e69f-4d02-8264-c870c2d95b21
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:30:38 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:33:01 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:33:01 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:33:22 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:33:27 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:33:36 ERROR BaseTest:120 - Given xpath expression "//*[text()='Derivatives Trader']']" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6780, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a27d843-0b2b-4259-b815-4ba782b85ef6
+*** Element info: {Using=xpath, value=//*[text()='Derivatives Trader']']}
+2019-12-21 21:33:36 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:35:24 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:35:24 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:35:43 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:35:48 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:35:57 ERROR BaseTest:120 - Unable to locate element: //*[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7644, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: de3ff31e-f5bd-47b2-942b-cc133126bfda
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:35:57 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:36:38 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:36:38 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:36:57 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:37:02 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:37:12 ERROR BaseTest:120 - Unable to locate element: //*[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16228, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 867f19f5-2e86-487c-a34b-ef678595e1cb
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:37:12 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:37:59 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:37:59 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:38:18 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:38:24 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:38:33 ERROR BaseTest:120 - Unable to locate element: //*[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12580, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6cc68c3-87fd-4951-acae-0ad3d37ed360
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:38:33 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:43:24 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:43:24 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:43:52 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:43:58 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:44:07 ERROR BaseTest:120 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1628, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e9c9ac15-5001-4ffa-bfc4-e5b91db6c1db
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:44:07 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:45:13 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:45:13 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:45:33 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:45:39 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:45:48 ERROR BaseTest:120 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12892, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d7c0c3b-c468-4d08-bae2-970c21006187
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-21 21:45:48 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:52:19 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:52:19 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:52:39 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:52:45 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:52:54 ERROR BaseTest:120 - Given xpath expression " //*[text()=\"I'm not a robot\"]" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6432, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1012feea-55f8-4fbf-8085-71792ba37bf8
+*** Element info: {Using=xpath, value= //*[text()=\"I'm not a robot\"]}
+2019-12-21 21:52:54 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:54:23 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:54:23 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:54:44 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:54:50 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:54:59 ERROR BaseTest:120 - Given xpath expression "//*[text()=\"I'm not a robot\"]" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 32dbcac8-3347-462b-b6e1-31bf5c2d8241
+*** Element info: {Using=xpath, value=//*[text()=\"I'm not a robot\"]}
+2019-12-21 21:54:59 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:55:51 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:55:51 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 21:56:21 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 21:56:27 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 21:56:36 ERROR BaseTest:120 - Unable to locate element: //*[text()="I'm not a robot"]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22292, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cf4243f8-c43f-4a95-a4de-5830a1ca736e
+*** Element info: {Using=xpath, value=//*[text()="I'm not a robot"]}
+2019-12-21 21:56:36 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 21:59:50 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 21:59:50 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 22:00:10 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:00:15 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:00:24 ERROR BaseTest:120 - Unable to locate element: //input[contains(@text,'m not a robot')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22000, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aa66b241-f6d0-4ce0-ac6b-5921096d6b8f
+*** Element info: {Using=xpath, value=//input[contains(@text,'m not a robot')]}
+2019-12-21 22:00:25 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 22:02:41 INFO  BaseTest:44 - Before Suite : loading properties 
+2019-12-21 22:02:41 INFO  BaseTest:51 - setupTest :  firefox
+2019-12-21 22:03:01 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:03:06 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:03:15 ERROR BaseTest:120 - Unable to locate element: //*[contains(@text,'m not a robot')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12768, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d3bf109f-e1c3-428f-bd55-2c723485ea70
+*** Element info: {Using=xpath, value=//*[contains(@text,'m not a robot')]}
+2019-12-21 22:03:15 INFO  BaseTest:88 - closeBrowser :  
+2019-12-21 22:10:17 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:10:17 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 22:10:44 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:10:49 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:10:49 ERROR BaseTest:120 - Element <input class="select-dropdown" type="text"> is not clickable at point (568,49) because another element <div class="container"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17076, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d6fa6335-efb1-4405-ac6f-dc490f7af1ec
+2019-12-21 22:10:49 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:11:57 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:11:57 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:12:29 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:12:35 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:12:35 ERROR BaseTest:120 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 58c4fd0ded7c7ba184cea01e4b2fe8cd
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 22:12:35 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:13:20 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:13:20 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:13:43 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:13:49 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:13:49 ERROR BaseTest:120 - element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62568}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 67ff9cd384e7b0fee0d510dd9d1eac64
+2019-12-21 22:13:49 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:14:40 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:14:40 INFO  BaseTest:55 - setupTest :  edge
+2019-12-21 22:15:31 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:15:31 INFO  BaseTest:55 - setupTest :  edge
+2019-12-21 22:16:34 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:16:34 INFO  BaseTest:55 - setupTest :  edge
+2019-12-21 22:18:12 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:18:12 INFO  BaseTest:55 - setupTest :  ie
+2019-12-21 22:19:05 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:19:05 ERROR BaseTest:38 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22134/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 175a2fdf-d2e6-417e-92d5-ed45cfef29a8
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-21 22:19:05 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:19:05 ERROR BaseTest:120 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:22134/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 175a2fdf-d2e6-417e-92d5-ed45cfef29a8
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 22:19:05 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:20:19 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:20:19 INFO  BaseTest:55 - setupTest :  ie
+2019-12-21 22:21:16 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:21:16 INFO  BaseTest:55 - setupTest :  ie
+2019-12-21 22:22:05 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:22:05 INFO  BaseTest:55 - setupTest :  ie
+2019-12-21 22:23:18 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:23:18 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:23:43 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:23:49 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:23:49 ERROR BaseTest:120 - element not interactable
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5daadb6048ba6ecb2581069a0bc175a0
+2019-12-21 22:23:49 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:24:42 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:24:42 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:25:09 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:25:15 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:25:26 ERROR BaseTest:120 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@text,'m not a robot')]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62939}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 796d5ab62289f3a407049ddfec721a15
+*** Element info: {Using=xpath, value=//*[contains(@text,'m not a robot')]}
+2019-12-21 22:25:26 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:30:50 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:30:50 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:31:12 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:31:18 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:31:18 ERROR BaseTest:120 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63032}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 13fb3716ff2d605260190335808478ec
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2019-12-21 22:31:18 INFO  BaseTest:98 - closeBrowser :  
+2019-12-21 22:32:08 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:32:08 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:32:29 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:32:35 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:32:35 ERROR BaseTest:120 - invalid selector: Unable to locate an element with the xpath expression //span[text()='MISS']] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[text()='MISS']]' is not a valid XPath expression.
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5740747de3fca671fcdd5b26b6a4bff
+*** Element info: {Using=xpath, value=//span[text()='MISS']]}
+2019-12-21 22:32:36 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 22:33:18 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:33:18 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 22:33:41 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:33:47 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:33:57 ERROR BaseTest:120 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@text,'m not a robot')]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63149}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a7eb75fdb3a9c6a16a32a89e9f666cc
+*** Element info: {Using=xpath, value=//*[contains(@text,'m not a robot')]}
+2019-12-21 22:33:57 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 22:35:04 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:35:04 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 22:35:38 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:35:43 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:35:52 ERROR BaseTest:120 - Unable to locate element: //*[contains(@text,'m not a robot')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18884, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c7637231-9e8b-480a-9abd-ebf9507dac9b
+*** Element info: {Using=xpath, value=//*[contains(@text,'m not a robot')]}
+2019-12-21 22:35:52 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 22:36:45 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:36:45 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 22:37:06 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:37:12 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:37:21 ERROR BaseTest:120 - Unable to locate element: //*[contains(@text,'m not a robot')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7032, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f60285b-2456-4767-b716-f34a78ba8fe0
+*** Element info: {Using=xpath, value=//*[contains(@text,'m not a robot')]}
+2019-12-21 22:37:21 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 22:54:38 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 22:54:38 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 22:55:01 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 22:55:06 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 22:55:16 ERROR BaseTest:120 - Unable to locate element: //label[@id='recaptcha-anchor-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191218033533, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22860, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f46d5e0-e430-4fdd-b871-04b72dfbe0ef
+*** Element info: {Using=xpath, value=//label[@id='recaptcha-anchor-label']}
+2019-12-21 22:55:16 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:23:26 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:23:26 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:23:29 ERROR BaseTest:68 - permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+2019-12-21 23:23:29 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:23:29 ERROR BaseTest:38 - 
+2019-12-21 23:23:30 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:23:30 ERROR BaseTest:121 - 
+2019-12-21 23:23:30 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:24:10 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:24:10 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:24:34 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:24:40 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:25:14 ERROR BaseTest:121 - Unable to locate element: //label[@id='recaptcha-anchor-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3956, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bb3378a5-96ac-43a4-8bb0-0444a09458c3
+*** Element info: {Using=xpath, value=//label[@id='recaptcha-anchor-label']}
+2019-12-21 23:25:14 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:26:11 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:26:11 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 23:26:32 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:26:38 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:27:14 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@id='recaptcha-anchor-label']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 588fcd5a45a277debe54f0ebfa734f4c
+*** Element info: {Using=xpath, value=//label[@id='recaptcha-anchor-label']}
+2019-12-21 23:27:14 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:30:43 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:30:43 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 23:31:02 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:31:08 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:31:43 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='rc-anchor-logo-text']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55127}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 819038dbfef96796a181a071e4884090
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-logo-text']}
+2019-12-21 23:31:43 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:34:59 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:34:59 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 23:35:20 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:35:26 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:36:02 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='rc-anchor-content']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55509}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 36756233366cda5ea47b422a48862ffa
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-content']}
+2019-12-21 23:36:02 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:37:03 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:37:03 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:37:23 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:37:29 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:38:03 ERROR BaseTest:121 - Unable to locate element: //*[@class='rc-anchor-content']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2216, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 758b826b-e8aa-4324-b86b-1d2ff21d44c3
+*** Element info: {Using=xpath, value=//*[@class='rc-anchor-content']}
+2019-12-21 23:38:03 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:47:25 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:47:25 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:47:53 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:47:59 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:48:33 ERROR BaseTest:121 - Given xpath expression "//span[@role='checkbox']]" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20332, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e0fe9ff-3b42-4e6a-bf44-d4ec60c3c043
+*** Element info: {Using=xpath, value=//span[@role='checkbox']]}
+2019-12-21 23:48:33 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:51:26 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:51:26 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:51:48 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:51:53 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:52:27 ERROR BaseTest:121 - Given xpath expression "//span[@role='checkbox']]" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 23720, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ff1b0d7-f506-4d89-8a69-667ea953c0f3
+*** Element info: {Using=xpath, value=//span[@role='checkbox']]}
+2019-12-21 23:52:27 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:57:20 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:57:20 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-21 23:57:45 INFO  BaseTest:30 - Starting the test :login  
+2019-12-21 23:57:52 INFO  BaseTest:46 - Starting the test :register  
+2019-12-21 23:58:31 ERROR BaseTest:121 - Unable to locate element: //div[@id='rc-anchor-container']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9176, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 14cb4136-5ee0-4fbb-9c67-c7af18ed10e1
+*** Element info: {Using=xpath, value=//div[@id='rc-anchor-container']}
+2019-12-21 23:58:31 INFO  BaseTest:100 - closeBrowser :  
+2019-12-21 23:59:21 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-21 23:59:21 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-21 23:59:53 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 00:00:00 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 00:00:38 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='rc-anchor-container']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 78a1e892336968d01d9e4ee6e3aa32b5
+*** Element info: {Using=xpath, value=//div[@id='rc-anchor-container']}
+2019-12-22 00:00:38 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 00:18:41 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 00:18:41 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-22 00:19:10 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 00:19:16 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 00:19:53 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']//child::span"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0fe2799cb3f6682440bc3686aaa11bbe
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']//child::span}
+2019-12-22 00:19:53 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:23:40 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:23:40 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-22 12:24:15 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:24:15 ERROR BaseTest:38 - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='openaccount3']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 406796ba251f05d0ec95d9fb00b6a548
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-22 12:24:15 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:24:15 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='email']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 406796ba251f05d0ec95d9fb00b6a548
+*** Element info: {Using=xpath, value=//*[@id='email']}
+2019-12-22 12:24:15 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:27:23 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:27:23 INFO  BaseTest:55 - setupTest :  chrome
+2019-12-22 12:27:45 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:27:51 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:28:27 ERROR BaseTest:121 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62094}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a86e2aa326d429b402bff14dfd2990cf
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-22 12:28:27 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:29:44 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:29:44 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-22 12:30:29 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:30:35 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:31:08 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 5648, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a587c02-a8ae-4119-8541-bc4617606b54
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-22 12:31:08 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:52:01 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:52:01 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-22 12:52:13 ERROR BaseTest:68 - Reached error page: about:neterror?e=dnsNotFound&u=https%3A//shares.fnb.co.za/%23%21/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20shares.fnb.co.za.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11888, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e2fe0f2-1668-453b-911f-7819f9de99d5
+2019-12-22 12:52:13 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:52:14 ERROR BaseTest:38 - Unable to locate element: //a[@id='openaccount3']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11888, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e2fe0f2-1668-453b-911f-7819f9de99d5
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-22 12:52:14 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:52:14 ERROR BaseTest:121 - Unable to locate element: //*[@id='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11888, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e2fe0f2-1668-453b-911f-7819f9de99d5
+*** Element info: {Using=xpath, value=//*[@id='email']}
+2019-12-22 12:52:14 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:52:48 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:52:48 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-22 12:52:59 ERROR BaseTest:68 - Reached error page: about:neterror?e=dnsNotFound&u=https%3A//shares.fnb.co.za/%23%21/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20shares.fnb.co.za.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17964, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c26c127-b332-4b23-a428-56cd2f1be8a9
+2019-12-22 12:52:59 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:52:59 ERROR BaseTest:38 - Unable to locate element: //a[@id='openaccount3']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17964, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c26c127-b332-4b23-a428-56cd2f1be8a9
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2019-12-22 12:52:59 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:52:59 ERROR BaseTest:121 - Unable to locate element: //*[@id='email']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17964, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5c26c127-b332-4b23-a428-56cd2f1be8a9
+*** Element info: {Using=xpath, value=//*[@id='email']}
+2019-12-22 12:52:59 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 12:58:58 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 12:58:58 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-22 12:59:18 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 12:59:23 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 12:59:35 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10720, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2e92eb0a-de33-49a8-8209-f9355656ee9c
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-22 12:59:35 INFO  BaseTest:100 - closeBrowser :  
+2019-12-22 13:00:23 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-22 13:00:23 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-22 13:00:51 INFO  BaseTest:30 - Starting the test :login  
+2019-12-22 13:00:56 INFO  BaseTest:46 - Starting the test :register  
+2019-12-22 13:01:08 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16752, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 489372b2-9508-4863-b9c5-424282813f77
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-22 13:01:08 INFO  BaseTest:100 - closeBrowser :  
