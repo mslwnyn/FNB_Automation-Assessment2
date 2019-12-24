@@ -1,11 +1,14 @@
 package za.co.tshimx.fnb.api;
 
 
+import com.relevantcodes.extentreports.LogStatus;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import za.co.tshimx.fnb.utils.ExtentTestManager;
 
 
-public class GetTest extends BaseTest {
+public class APITest extends BaseTest {
     String serviceURL;
     String apiURL;
     String url;
@@ -19,11 +22,16 @@ public class GetTest extends BaseTest {
         System.out.println(url);
     }
 
-
     @Test
-    public void getTestMethod() {
-        apiClient = new APIClient();
-        apiClient.get(url);
+    public void getAPITestMethod() {
+        try{
+              apiClient = new APIClient();
+              apiClient.get(url);
+        }catch(Exception e){
+            ExtentTestManager.getTest().log(LogStatus.FAIL,e.getMessage());
+            Assert.fail(e.getMessage());
+        }
+        
 
     }
 }

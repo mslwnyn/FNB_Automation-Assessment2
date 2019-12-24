@@ -9,6 +9,7 @@
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="za.co.tshimx.fnb.testcases.HomePageTest"/>
+            <class name="za.co.tshimx.fnb.api.APITest"/>
         </classes>
     </test>
     

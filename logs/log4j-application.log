@@ -1326,3 +1326,42 @@ Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 7
 Session ID: 489372b2-9508-4863-b9c5-424282813f77
 *** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
 2019-12-22 13:01:08 INFO  BaseTest:100 - closeBrowser :  
+2019-12-24 05:45:28 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-24 05:45:28 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-24 05:46:47 INFO  BaseTest:30 - Starting the test :login  
+2019-12-24 05:46:59 INFO  BaseTest:46 - Starting the test :register  
+2019-12-24 05:47:20 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13180, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e701fd8d-066c-4d65-8a20-da063739a87d
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-24 05:47:24 INFO  BaseTest:100 - closeBrowser :  
+2019-12-24 05:50:53 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-24 05:50:53 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-24 05:51:20 INFO  BaseTest:30 - Starting the test :login  
+2019-12-24 05:51:25 INFO  BaseTest:46 - Starting the test :register  
+2019-12-24 05:51:38 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22932, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f5acb1b-5bdc-46c5-bdf4-ccd5b4b06140
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-24 05:51:43 INFO  BaseTest:100 - closeBrowser :  
+2019-12-24 05:54:48 INFO  BaseTest:48 - Before Suite : loading properties 
+2019-12-24 05:54:48 INFO  BaseTest:55 - setupTest :  firefox
+2019-12-24 05:55:14 INFO  BaseTest:30 - Starting the test :login  
+2019-12-24 05:55:20 INFO  BaseTest:46 - Starting the test :register  
+2019-12-24 05:55:32 ERROR BaseTest:121 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191219234059, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20280, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: eae2ad6c-6aaf-4f18-a47e-ccc41b297788
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2019-12-24 05:55:47 INFO  BaseTest:100 - closeBrowser :  

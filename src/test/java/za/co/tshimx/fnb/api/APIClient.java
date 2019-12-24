@@ -16,8 +16,8 @@ import java.util.HashMap;
 
 public class APIClient {
 
-    public void get(String url) {
-        try {
+    public void get(String url) throws Exception {
+        
 
             CloseableHttpClient httpClient = HttpClients.createDefault();
             HttpGet httpget = new HttpGet(url);
@@ -33,9 +33,7 @@ public class APIClient {
                 allHeaders.put(header.getName(), header.getValue());
             }
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        
     }
 
 

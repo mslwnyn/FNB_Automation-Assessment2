@@ -1,11 +1,16 @@
 za\co\tshimx\fnb\utils\HibernateUtil.class
+za\co\tshimx\fnb\domain\UsersPage.class
 za\co\tshimx\fnb\utils\MobileNumberGenerator.class
+za\co\tshimx\fnb\api\APIClient.class
 za\co\tshimx\fnb\testcases\HomePageTest.class
+za\co\tshimx\fnb\domain\User.class
 za\co\tshimx\fnb\pageobjects\HomePageObjects.class
 za\co\tshimx\fnb\pageobjects\RegisterPageObjects.class
 za\co\tshimx\fnb\domain\Person.class
 za\co\tshimx\fnb\testcases\BaseTest.class
 za\co\tshimx\fnb\utils\HibernateDatabaseAccess.class
+za\co\tshimx\fnb\api\BaseTest.class
 za\co\tshimx\fnb\utils\ExtentTestManager.class
 za\co\tshimx\fnb\utils\TestListener.class
 za\co\tshimx\fnb\utils\ExtentManager.class
+za\co\tshimx\fnb\api\APITest.class
