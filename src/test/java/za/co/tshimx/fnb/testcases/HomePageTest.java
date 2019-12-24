@@ -46,48 +46,47 @@ public class HomePageTest extends BaseTest {
             logger.info("Starting the test :register  ");
             RegisterPageObjects registerPage = PageFactory.initElements(driver, RegisterPageObjects.class);
             // database aceess
-//        HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
-//          Person person = dbAccess.getPersonDetails();
+        HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
+         Person person = dbAccess.getPersonDetails();
 
-//         registerPage.setTitle(person.getTitle()); 
-//         registerPage.setFirstName(person.getFirstName());
-//         registerPage.setSurname(person.getSurname());
-//         registerPage.setEmail(person.getEmail());
-//         registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
-//         registerPage.setUsername(person.getUsername());
-//         registerPage.setPassword(person.getPassword());
-//         registerPage.setCitizen(person.getRsa_citizen());
-            //registerPage.setTitle("DR");
-            registerPage.setEmail("maslwnyn@gmail.com");
+            registerPage.setTitle(person.getTitle()); 
+            registerPage.setEmail(person.getEmail());
             registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
-            registerPage.setCitizen("Yes");
+            registerPage.setCitizen(person.getRsa_citizen());
+////        registerPage.setTitle("DR");
+////        registerPage.setEmail("maslwnyn@gmail.com");
+////        registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
+////        registerPage.setCitizen("Yes");
             registerPage.setRsaID("6410015366");
-            registerPage.setUsername("tshimologo");
+            registerPage.setUsername(person.getUsername());            
+////        registerPage.setUsername("tshimologo");
             Thread.sleep(3000);
             if (driver.findElement(By.xpath("//*[@ng-message='minlength']")).getText().equalsIgnoreCase("South African ID numbers are thirteen digits.")) {
                 Assert.assertTrue(true, "Validation: South African ID numbers are thirteen digits - passed test");
                 ExtentTestManager.getTest().log(LogStatus.PASS, "Validation: South African ID numbers are thirteen digits - passed test");
-                String screenshotPath3 = BaseTest.getScreenshot(driver, "screenshot_");
-                ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath3));
+                takescreenshot();
             }
             registerPage.RsaIDClear();
             registerPage.setRsaID("1234567890123");
-            registerPage.setPassword("Tester1234*");
+//          registerPage.setPassword("Tester1234*");
+            registerPage.setPassword(person.getPassword());
             Thread.sleep(3000);
             if (driver.findElement(By.xpath("//*[@ng-message='aiValIdNumber']")).getText().equalsIgnoreCase("Number entered is not a valid SA ID number.")) {
                 Assert.assertTrue(true, "Validation: Number entered is not a valid SA ID number. - passed test");
                 ExtentTestManager.getTest().log(LogStatus.PASS, "Validation: Number entered is not a valid SA ID number. - passed test");
-                String screenshotPath4 = BaseTest.getScreenshot(driver, "screenshot_");
-                ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath4));
+                takescreenshot();
 
             }
-
-            registerPage.setFirstName("Tshimologo");
-            registerPage.setSurname("Maselwanyane");
-//          registerPage.setRsaID(person.getIdNumber());
+            
+//          registerPage.setFirstName("Tshimologo");
+//          registerPage.setSurname("Maselwanyane");
+            registerPage.setFirstName(person.getFirstName());           
+            registerPage.setSurname(person.getSurname());
+            
+          
             registerPage.RsaIDClear();
-            registerPage.setRsaID("8806014800082");
-
+//          registerPage.setRsaID("8806014800082");
+            registerPage.setRsaID(person.getIdNumber());
             String screenshotPath5 = BaseTest.getScreenshot(driver, "screenshot_");
             ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath5));
             JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -95,7 +94,7 @@ public class HomePageTest extends BaseTest {
 
             takescreenshot();
             // Select Product
-            String selected_product = "Local Trading Account";
+            String selected_product = "Derivatives Trader";
             if (selected_product.equalsIgnoreCase("Local Trading Account")) {
                 registerPage.selectProduct1();
             } else if (selected_product.equalsIgnoreCase("Derivatives Trader")) {
@@ -105,7 +104,6 @@ public class HomePageTest extends BaseTest {
             } else if (selected_product.equalsIgnoreCase("All")) {
                 registerPage.selectProduct4();
             }
-
             takescreenshot();
             // Click Captcha
             Thread.sleep(3000);
@@ -119,6 +117,8 @@ public class HomePageTest extends BaseTest {
             takescreenshot();
         } catch (Exception e) {
             logger.error(e.getMessage());
+            ExtentTestManager.getTest().log(LogStatus.FAIL,e.getMessage());
+            Assert.fail(e.getMessage());
         }
     }
 }

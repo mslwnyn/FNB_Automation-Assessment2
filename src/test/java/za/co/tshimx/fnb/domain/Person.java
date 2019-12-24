@@ -29,7 +29,7 @@ public class Person {
         @Column(name="EMAIL", length=50, nullable=false)
 	private String email;
         
-        @Column(name="MOBILE_NUMBER", length=20, nullable=false)
+        @Column(name="MOBILE_NUMBER", length=20, nullable=true)
 	private String mobileNumber;
         
         @Column(name="IDNUMBER", length=13, nullable=false)

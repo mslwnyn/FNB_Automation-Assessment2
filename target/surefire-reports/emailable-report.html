@@ -9,17 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">All Test Suite</th></tr>
-<tr><td><a href="#t0">Create Account: HomePage</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">58 197</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Create Account: HomePage</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">51 213</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Create Account: HomePage &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">za.co.tshimx.fnb.testcases.HomePageTest</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1577159747100</td><td rowspan="1">17</td></tr><tr><th colspan="4">Create Account: HomePage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">za.co.tshimx.fnb.api.APITest</td><td><a href="#m1">getAPITestMethod</a></td><td rowspan="1">1577159732302</td><td rowspan="1">14763</td></tr><tr><th colspan="4">Create Account: HomePage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">za.co.tshimx.fnb.testcases.HomePageTest</td><td><a href="#m2">createAccount</a></td><td rowspan="1">1577159714522</td><td rowspan="1">5399</td></tr><tr class="passedeven"><td><a href="#m3">register</a></td><td rowspan="1">1577159720167</td><td rowspan="1">12057</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Create Account: HomePage &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">za.co.tshimx.fnb.testcases.HomePageTest</td><td><a href="#m0">closeBrowser</a></td><td rowspan="1">1577164221105</td><td rowspan="1">6</td></tr><tr><th colspan="4">Create Account: HomePage &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">za.co.tshimx.fnb.api.APITest</td><td><a href="#m1">getAPITestMethod</a></td><td rowspan="1">1577164210919</td><td rowspan="1">10091</td></tr><tr class="failedodd"><td rowspan="1">za.co.tshimx.fnb.testcases.HomePageTest</td><td><a href="#m2">register</a></td><td rowspan="1">1577164195603</td><td rowspan="1">15235</td></tr><tr><th colspan="4">Create Account: HomePage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">za.co.tshimx.fnb.testcases.HomePageTest</td><td><a href="#m3">createAccount</a></td><td rowspan="1">1577164189870</td><td rowspan="1">5503</td></tr></tbody>
 </table>
 <h2>Create Account: HomePage</h2><h3 id="m0">za.co.tshimx.fnb.testcases.HomePageTest#closeBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
 	at za.co.tshimx.fnb.testcases.BaseTest.closeBrowser(BaseTest.java:101)
 ... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">za.co.tshimx.fnb.api.APITest#getAPITestMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Connect to regres.in:443 [regres.in/199.191.50.185] failed: Connection refused: connect
-	at za.co.tshimx.fnb.api.APITest.getAPITestMethod(APITest.java:32)
+<h3 id="m1">za.co.tshimx.fnb.api.APITest#getAPITestMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Connect to regres.in:443 [regres.in/199.191.50.185] failed: Connection timed out: connect
+	at za.co.tshimx.fnb.api.APITest.getAPITestMethod(APITest.java:37)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">za.co.tshimx.fnb.testcases.HomePageTest#createAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">za.co.tshimx.fnb.testcases.HomePageTest#register</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">za.co.tshimx.fnb.testcases.HomePageTest#register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Unable to locate element: //label[@class=&apos;rc-anchor-center-item rc-anchor-checkbox-label&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MSLWNYN&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11068, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1642bb93-3e5c-429d-99c3-aa4e13673d77
+*** Element info: {Using=xpath, value=//label[@class=&apos;rc-anchor-center-item rc-anchor-checkbox-label&apos;]}
+	at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:121)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">za.co.tshimx.fnb.testcases.HomePageTest#createAccount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
