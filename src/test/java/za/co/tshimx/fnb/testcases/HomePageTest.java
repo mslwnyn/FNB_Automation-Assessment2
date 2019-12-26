@@ -45,7 +45,7 @@ public class HomePageTest extends BaseTest {
     @Test(dependsOnMethods = {"homePage"})
     public void createAccount() {
         try {
-            logger.info("Starting the test :login  ");
+            logger.info("Starting the test :createAccount  ");
             HomePageObjects homepage = PageFactory.initElements(driver, HomePageObjects.class);
             homepage.ClickOpenAccountLink();
             Thread.sleep(5000);
@@ -77,7 +77,7 @@ public class HomePageTest extends BaseTest {
             registerPage.setRsaID("6410015366");
             registerPage.setUsername(person.getUsername());            
 ////        registerPage.setUsername("tshimologo");
-            Thread.sleep(3000);
+            Thread.sleep(10000);
             if (driver.findElement(By.xpath("//*[@ng-message='minlength']")).getText().equalsIgnoreCase("South African ID numbers are thirteen digits.")) {
                 Assert.assertTrue(true, "Validation: South African ID numbers are thirteen digits - passed test");
                 ExtentTestManager.getTest().log(LogStatus.PASS, "Validation: South African ID numbers are thirteen digits - passed test");
@@ -87,12 +87,18 @@ public class HomePageTest extends BaseTest {
             registerPage.setRsaID("1234567890123");
 //          registerPage.setPassword("Tester1234*");
             registerPage.setPassword(person.getPassword());
-            Thread.sleep(3000);
+            Thread.sleep(10000);
             if (driver.findElement(By.xpath("//*[@ng-message='aiValIdNumber']")).getText().equalsIgnoreCase("Number entered is not a valid SA ID number.")) {
+                takescreenshot();
+                Thread.sleep(10000);
                 Assert.assertTrue(true, "Validation: Number entered is not a valid SA ID number. - passed test");
                 ExtentTestManager.getTest().log(LogStatus.PASS, "Validation: Number entered is not a valid SA ID number. - passed test");
                 takescreenshot();
 
+            }else{
+                    
+                ExtentTestManager.getTest().log(LogStatus.FAIL, "Validation: Number entered is not a valid SA ID number. - Failed test");
+                takescreenshot();
             }
             
 //          registerPage.setFirstName("Tshimologo");
@@ -108,7 +114,6 @@ public class HomePageTest extends BaseTest {
             ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath5));
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0,1000)");
-
             takescreenshot();
             // Select Product
             String selected_product = "Derivatives Trader";

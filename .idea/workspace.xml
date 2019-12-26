@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f56da6-1f0e-437b-afe1-fa679606ac10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j-application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FNB_Automation_Assessment_Report_201912261525.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032518.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032524.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032530.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032535.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/rest_config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/rest_config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
@@ -15,6 +26,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/HomePageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1162">
+            <state relative-caret-position="1246">
               <caret line="89" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
@@ -67,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="196">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +143,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-22" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
@@ -140,6 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,11 +171,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577091402746" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577375396856" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -182,7 +197,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/Tshimologo/Documents/NetBeansProjects/FNBAutomationAssessment/testng.xml">
+    <configuration name="C:/Users/Tshimologo/Documents/NetBeansProjects/FNBAutomationAssessment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FNBAutomationAssessment" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FNBAutomationAssessment" />
       <extension name="coverage">
@@ -265,6 +290,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Tshimologo/Documents/NetBeansProjects/FNBAutomationAssessment/testng.xml" />
         <item itemvalue="TestNG.GetTest" />
       </list>
     </recent_temporary>
@@ -279,13 +305,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576829836002</updated>
+      <workItem from="1577375161604" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetTest - 2019.12.23 at 08h 44m 32s.xml">
-      <configuration name="GetTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GetTest_(2) - 2019.12.23 at 08h 50m 13s.xml">
       <configuration name="GetTest (2)" configurationId="TestNG" />
     </history-entry>
@@ -313,12 +337,18 @@
     <history-entry file="GetTest - 2019.12.23 at 10h 14m 43s.xml">
       <configuration name="GetTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_Tshimologo_Documents_NetBeansProjects_FNBAutomationAssessment_testng_xml - 2019.12.26 at 17h 50m 36s.xml">
+      <configuration name="C:/Users/Tshimologo/Documents/NetBeansProjects/FNBAutomationAssessment/testng.xml" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +357,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26590538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5662848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,6 +366,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32952693" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,7 +376,11 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testng.xml">
@@ -451,20 +487,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/GetTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" column="111" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/GetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -480,15 +507,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1162">
+        <state relative-caret-position="1246">
           <caret line="89" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

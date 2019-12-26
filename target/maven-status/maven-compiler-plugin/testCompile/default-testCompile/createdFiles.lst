@@ -9,6 +9,7 @@ za\co\tshimx\fnb\pageobjects\RegisterPageObjects.class
 za\co\tshimx\fnb\domain\Person.class
 za\co\tshimx\fnb\testcases\BaseTest.class
 za\co\tshimx\fnb\utils\HibernateDatabaseAccess.class
+za\co\tshimx\fnb\utils\JsonUtil.class
 za\co\tshimx\fnb\api\BaseTest.class
 za\co\tshimx\fnb\utils\ExtentTestManager.class
 za\co\tshimx\fnb\utils\TestListener.class

@@ -2,26 +2,16 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-12-26T13:25:04Z" name="All Test Suite" finished-at="2019-12-26T13:25:39Z" duration-ms="35326">
+  <suite started-at="2019-12-26T20:43:38Z" name="All Test Suite" finished-at="2019-12-26T20:45:18Z" duration-ms="99901">
     <groups>
     </groups>
-    <test started-at="2019-12-26T13:25:04Z" name="Create Account: HomePage" finished-at="2019-12-26T13:25:39Z" duration-ms="35326">
-      <class name="za.co.tshimx.fnb.api.APITest">
-        <test-method signature="getAPITestMethod()[pri:0, instance:za.co.tshimx.fnb.api.APITest@26275bef]" started-at="2019-12-26T13:25:38Z" name="getAPITestMethod" finished-at="2019-12-26T13:25:39Z" duration-ms="903" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getAPITestMethod -->
-        <test-method is-config="true" signature="setUP()[pri:0, instance:za.co.tshimx.fnb.api.APITest@26275bef]" started-at="2019-12-26T13:25:38Z" name="setUP" finished-at="2019-12-26T13:25:38Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUP -->
-      </class> <!-- za.co.tshimx.fnb.api.APITest -->
+    <test started-at="2019-12-26T20:43:38Z" name="Create Account: HomePage" finished-at="2019-12-26T20:45:18Z" duration-ms="99901">
       <class name="za.co.tshimx.fnb.testcases.HomePageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:04Z" name="beforeSuite" finished-at="2019-12-26T13:25:04Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:43:38Z" name="beforeSuite" finished-at="2019-12-26T20:43:38Z" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:04Z" name="setUp" finished-at="2019-12-26T13:25:18Z" duration-ms="14403" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:43:38Z" name="setUp" finished-at="2019-12-26T20:43:52Z" duration-ms="14361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePage()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:18Z" name="homePage" finished-at="2019-12-26T13:25:19Z" duration-ms="742" status="PASS">
+        <test-method signature="homePage()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:43:52Z" name="homePage" finished-at="2019-12-26T20:43:53Z" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method signature="createAccount()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:19Z" name="createAccount" finished-at="2019-12-26T13:25:24Z" depends-on-methods="za.co.tshimx.fnb.testcases.HomePageTest.homePage" duration-ms="5166" status="PASS">
+        <test-method signature="createAccount()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:43:53Z" name="createAccount" finished-at="2019-12-26T20:43:58Z" depends-on-methods="za.co.tshimx.fnb.testcases.HomePageTest.homePage" duration-ms="5251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method signature="register()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:24Z" name="register" finished-at="2019-12-26T13:25:38Z" depends-on-methods="za.co.tshimx.fnb.testcases.HomePageTest.createAccount" duration-ms="13597" status="FAIL">
+        <test-method signature="register()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:43:58Z" name="register" finished-at="2019-12-26T20:44:37Z" depends-on-methods="za.co.tshimx.fnb.testcases.HomePageTest.createAccount" duration-ms="38046" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
@@ -48,8 +38,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9084, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a1b36c7-4850-4eb7-a3ff-3e6740cb55b1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fc8bc34-4941-48cb-858d-2fd1464f9671
 *** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}]]>
             </message>
             <full-stacktrace>
@@ -58,11 +48,11 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9084, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2a1b36c7-4850-4eb7-a3ff-3e6740cb55b1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6fc8bc34-4941-48cb-858d-2fd1464f9671
 *** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
 at org.testng.Assert.fail(Assert.java:96)
-at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:139)
+at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:143)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -97,7 +87,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@4d910fd6]" started-at="2019-12-26T13:25:39Z" name="closeBrowser" finished-at="2019-12-26T13:25:39Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:za.co.tshimx.fnb.testcases.HomePageTest@51f116b8]" started-at="2019-12-26T20:45:18Z" name="closeBrowser" finished-at="2019-12-26T20:45:18Z" duration-ms="5" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -136,6 +126,16 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- za.co.tshimx.fnb.testcases.HomePageTest -->
+      <class name="za.co.tshimx.fnb.api.APITest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:za.co.tshimx.fnb.api.APITest@19d481b]" started-at="2019-12-26T20:44:37Z" name="setUP" finished-at="2019-12-26T20:44:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="getAPITestMethod()[pri:0, instance:za.co.tshimx.fnb.api.APITest@19d481b]" started-at="2019-12-26T20:44:37Z" name="getAPITestMethod" finished-at="2019-12-26T20:45:18Z" duration-ms="41057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestMethod -->
+      </class> <!-- za.co.tshimx.fnb.api.APITest -->
     </test> <!-- Create Account: HomePage -->
   </suite> <!-- All Test Suite -->
 </testng-results>

@@ -99,7 +99,7 @@ public class BaseTest {
     public void closeBrowser() throws InterruptedException {
         logger.info("closeBrowser :  ");
         html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
-      //  driver.quit();
+        driver.quit();
     }
 
     public void loadProperties() throws Exception {
