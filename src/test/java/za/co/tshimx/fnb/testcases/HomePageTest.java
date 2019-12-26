@@ -24,15 +24,32 @@ import za.co.tshimx.fnb.utils.MobileNumberGenerator;
  */
 public class HomePageTest extends BaseTest {
 
+    
     @Test
+    public void homePage() {
+        
+        try {
+             
+              if(driver.getTitle().equalsIgnoreCase("FNB - Stockbroking and Portfolio Management")){
+                  ExtentTestManager.getTest().log(LogStatus.PASS, "Title page is correct :FNB - Stockbroking and Portfolio Management");
+                  takescreenshot();
+              }else {
+                   ExtentTestManager.getTest().log(LogStatus.FAIL, "Title page is not correct :" +driver.getTitle() );
+              }
+              
+        }catch (Exception e) {
+            logger.error(e.getMessage());
+        }
+        
+    }
+    @Test(dependsOnMethods = {"homePage"})
     public void createAccount() {
         try {
             logger.info("Starting the test :login  ");
             HomePageObjects homepage = PageFactory.initElements(driver, HomePageObjects.class);
             homepage.ClickOpenAccountLink();
             Thread.sleep(5000);
-            String screenshotPath1 = BaseTest.getScreenshot(driver, "screenshot_");
-            ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath1));
+            takescreenshot();
 
         } catch (Exception e) {
             logger.error(e.getMessage());
@@ -46,8 +63,8 @@ public class HomePageTest extends BaseTest {
             logger.info("Starting the test :register  ");
             RegisterPageObjects registerPage = PageFactory.initElements(driver, RegisterPageObjects.class);
             // database aceess
-        HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
-         Person person = dbAccess.getPersonDetails();
+            HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
+            Person person = dbAccess.getPersonDetails();
 
             registerPage.setTitle(person.getTitle()); 
             registerPage.setEmail(person.getEmail());

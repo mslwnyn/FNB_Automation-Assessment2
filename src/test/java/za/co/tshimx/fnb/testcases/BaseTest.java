@@ -28,6 +28,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
+
 import za.co.tshimx.fnb.utils.ExtentTestManager;
 
 
@@ -61,7 +62,6 @@ public class BaseTest {
                 //html = driver.findElement(By.tagName("html"));
                 //html.sendKeys(Keys.chord(Keys.CONTROL, Keys.ADD));
                 driver.get(env_prop.getProperty("web.url"));
-                Thread.sleep(5000);
                // String screenshotPath = BaseTest.getScreenshot(driver, "screenshot_");
                // ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath));
             } catch (Exception e) {

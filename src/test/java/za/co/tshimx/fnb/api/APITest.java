@@ -13,7 +13,7 @@ public class APITest extends BaseTest {
      final static Logger logger = Logger.getLogger(APITest.class);
     String serviceURL;
     String apiURL;
-    String url;
+    String uri;
     APIClient apiClient;
 
     @BeforeMethod
@@ -21,8 +21,8 @@ public class APITest extends BaseTest {
         logger.info("API BeforeMethod : Setting up " );
         serviceURL = env_prop.getProperty("serviceURL");
         apiURL = env_prop.getProperty("apiURL");
-        url = serviceURL + apiURL;
-        logger.info("API BeforeMethod url : " + url);
+        uri = serviceURL + apiURL;
+        logger.info("API BeforeMethod url : " + uri);
       
     }
 
@@ -31,7 +31,7 @@ public class APITest extends BaseTest {
         try{
             
               apiClient = new APIClient();
-              apiClient.get(url);
+              apiClient.get(uri);
         }catch(Exception e){
             ExtentTestManager.getTest().log(LogStatus.FAIL,e.getMessage());
             Assert.fail(e.getMessage());

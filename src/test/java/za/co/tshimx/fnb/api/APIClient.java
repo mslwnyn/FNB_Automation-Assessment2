@@ -1,6 +1,7 @@
 package za.co.tshimx.fnb.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.relevantcodes.extentreports.LogStatus;
 import org.apache.http.Header;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -13,6 +14,7 @@ import za.co.tshimx.fnb.domain.UsersPage;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import za.co.tshimx.fnb.utils.ExtentTestManager;
 
 public class APIClient {
 
@@ -24,15 +26,20 @@ public class APIClient {
             CloseableHttpResponse closeableHttpResponse = httpClient.execute(httpget);
             int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
             String responseString = EntityUtils.toString(closeableHttpResponse.getEntity(), "UTF-8");
+            ExtentTestManager.getTest().log(LogStatus.INFO,"JSON OBJECT: " + responseString);
             JSONObject responseJson = new JSONObject(responseString);
-            writetoFile(jsonToJavaObject(jsonToJavaObject(responseString)));
+            writetoFile(jsonToJavaObject(responseString));
+            ExtentTestManager.getTest().log(LogStatus.INFO,"Java object to String: "  + jsonToJavaObject(responseString));
 
             Header[] headerArray = closeableHttpResponse.getAllHeaders();
             HashMap allHeaders = new HashMap<String, String>();
             for (Header header : headerArray) {
                 allHeaders.put(header.getName(), header.getValue());
             }
-
+            System.out.println(headerArray);
+            ExtentTestManager.getTest().log(LogStatus.INFO,"HEADERS "+ allHeaders.toString());
+            
+           
         
     }
 

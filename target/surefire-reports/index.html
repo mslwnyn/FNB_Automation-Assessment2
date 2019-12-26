@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
                     </span>
                     <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="za.co.tshimx.fnb.api.APITest" class="method navigator-link" hash-for-method="getAPITestMethod">getAPITestMethod</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-All_Test_Suite" title="za.co.tshimx.fnb.testcases.HomePageTest" class="method navigator-link" hash-for-method="register">register</a> <!-- method navigator-link -->
@@ -124,6 +119,16 @@
                         <a href="#" panel-name="suite-All_Test_Suite" title="za.co.tshimx.fnb.testcases.HomePageTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="za.co.tshimx.fnb.api.APITest" class="method navigator-link" hash-for-method="getAPITestMethod">getAPITestMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="za.co.tshimx.fnb.testcases.HomePageTest" class="method navigator-link" hash-for-method="homePage">homePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
                   </li>
                 </ul>
@@ -136,25 +141,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">za.co.tshimx.fnb.api.APITest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getAPITestMethod">
-                  </a> <!-- getAPITestMethod -->
-                  <span class="method-name">getAPITestMethod</span>
-                  <div class="stack-trace">java.lang.AssertionError: Connect to regres.in:443 [regres.in/199.191.50.185] failed: Connection timed out: connect
-	at za.co.tshimx.fnb.api.APITest.getAPITestMethod(APITest.java:37)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -171,16 +157,31 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;MSLWNYN&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11068, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 1642bb93-3e5c-429d-99c3-aa4e13673d77
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9084, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2a1b36c7-4850-4eb7-a3ff-3e6740cb55b1
 *** Element info: {Using=xpath, value=//label[@class=&apos;rc-anchor-center-item rc-anchor-checkbox-label&apos;]}
-	at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:121)
+	at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:139)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">za.co.tshimx.fnb.api.APITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAPITestMethod">
+                  </a> <!-- getAPITestMethod -->
+                  <span class="method-name">getAPITestMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -192,6 +193,13 @@ Session ID: 1642bb93-3e5c-429d-99c3-aa4e13673d77
                   <a name="createAccount">
                   </a> <!-- createAccount -->
                   <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePage">
+                  </a> <!-- homePage -->
+                  <span class="method-name">homePage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,24 +261,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'register')
 data.setCell(0, 2, 'za.co.tshimx.fnb.testcases.HomePageTest')
-data.setCell(0, 3, 15235);
+data.setCell(0, 3, 13597);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getAPITestMethod')
-data.setCell(1, 2, 'za.co.tshimx.fnb.api.APITest')
-data.setCell(1, 3, 10091);
+data.setCell(1, 1, 'createAccount')
+data.setCell(1, 2, 'za.co.tshimx.fnb.testcases.HomePageTest')
+data.setCell(1, 3, 5166);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createAccount')
-data.setCell(2, 2, 'za.co.tshimx.fnb.testcases.HomePageTest')
-data.setCell(2, 3, 5503);
+data.setCell(2, 1, 'getAPITestMethod')
+data.setCell(2, 2, 'za.co.tshimx.fnb.api.APITest')
+data.setCell(2, 3, 903);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homePage')
+data.setCell(3, 2, 'za.co.tshimx.fnb.testcases.HomePageTest')
+data.setCell(3, 3, 742);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -303,30 +315,32 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">12 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <span class="method-name">homePage</span>
+                <span class="method-start">14445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">createAccount</span>
-                <span class="method-start">19984 ms</span>
+                <span class="method-start">15441 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">register</span>
-                <span class="method-start">25717 ms</span>
+                <span class="method-start">20670 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">za.co.tshimx.fnb.api.APITest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUP</span>
-                <span class="method-start">41033 ms</span>
+                <span class="method-start">34345 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">getAPITestMethod</span>
-                <span class="method-start">41033 ms</span>
+                <span class="method-start">34345 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -335,7 +349,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">51219 ms</span>
+                <span class="method-start">35342 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
