@@ -1,5 +1,4 @@
 za\co\tshimx\fnb\api\testcases\BaseTest.class
-za\co\tshimx\fnb\api\APIClient.class
 za\co\tshimx\fnb\testcases\HomePageTest.class
 za\co\tshimx\fnb\pageobjects\HomePageObjects.class
 za\co\tshimx\fnb\api\testcases\APITest.class

@@ -52,7 +52,7 @@ public class APITest extends BaseTest {
 //          headerMap.put("Auth Token","34523");
             
             closeableHttpResponse = apiClient.getCloseableHttpResponse(uri,headerMap);  
-            Thread.sleep(40000);
+            Thread.sleep(20000);
             //1.  get status code
             int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
             if (statusCode == 200) {
