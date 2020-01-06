@@ -1,4 +1,6 @@
-package za.co.tshimx.fnb.api;
+package za.co.tshimx.fnb.api.testcases;
+
+
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -11,13 +13,12 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 import org.json.JSONObject;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import static za.co.tshimx.fnb.api.APIClient.logger;
+import za.co.tshimx.fnb.api.APIClient;
 import za.co.tshimx.fnb.domain.UsersPage;
-import za.co.tshimx.fnb.utils.ExtentTestManager;
-import za.co.tshimx.fnb.utils.JsonUtil;
+import za.co.tshimx.fnb.testutils.ExtentTestManager;
+
 
 
 public class APITest extends BaseTest {

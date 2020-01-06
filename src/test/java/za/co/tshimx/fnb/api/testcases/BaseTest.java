@@ -1,4 +1,4 @@
-package za.co.tshimx.fnb.api;
+package za.co.tshimx.fnb.api.testcases;
 
 import java.io.InputStream;
 import java.util.Properties;

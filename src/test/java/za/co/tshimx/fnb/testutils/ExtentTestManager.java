@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package za.co.tshimx.fnb.utils;
+package za.co.tshimx.fnb.testutils;
 
+import za.co.tshimx.fnb.testutils.ExtentManager;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import java.util.HashMap;

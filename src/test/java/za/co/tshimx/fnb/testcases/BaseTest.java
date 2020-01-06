@@ -29,7 +29,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
-import za.co.tshimx.fnb.utils.ExtentTestManager;
+import za.co.tshimx.fnb.testutils.ExtentTestManager;
 
 
 /**
@@ -90,7 +90,7 @@ public class BaseTest {
             driver.manage().window().maximize();
             driver.get(env_prop.getProperty("web.url"));
             wait = new WebDriverWait(driver, 40);
-            Thread.sleep(5000);
+            Thread.sleep(1000);
         }
 
     }
@@ -98,7 +98,7 @@ public class BaseTest {
     @AfterTest
     public void closeBrowser() throws InterruptedException {
         logger.info("closeBrowser :  ");
-        html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
+        //html.sendKeys(Keys.chord(Keys.CONTROL, Keys.SUBTRACT));
         driver.quit();
     }
 

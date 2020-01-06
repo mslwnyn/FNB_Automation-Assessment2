@@ -1,22 +1,15 @@
 package za.co.tshimx.fnb.api;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.relevantcodes.extentreports.LogStatus;
-import org.apache.http.Header;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
-import org.json.JSONObject;
-import za.co.tshimx.fnb.domain.UsersPage;
-import java.io.FileWriter;
-import java.io.IOException;
+
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.log4j.Logger;
-import static za.co.tshimx.fnb.api.APITest.logger;
-import za.co.tshimx.fnb.utils.ExtentTestManager;
+
 
 public class APIClient {
     final static Logger logger = Logger.getLogger(APIClient.class);

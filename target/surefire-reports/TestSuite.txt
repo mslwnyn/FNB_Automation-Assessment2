@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 100.906 sec <<< FAILURE! - in TestSuite
-register(za.co.tshimx.fnb.testcases.HomePageTest)  Time elapsed: 38.062 sec  <<< FAILURE!
-java.lang.AssertionError: 
-Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MSLWNYN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191221003008, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 1224, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6fc8bc34-4941-48cb-858d-2fd1464f9671
-*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
-	at za.co.tshimx.fnb.testcases.HomePageTest.register(HomePageTest.java:143)
-
-closeBrowser(za.co.tshimx.fnb.testcases.HomePageTest)  Time elapsed: 41.105 sec  <<< FAILURE!
-java.lang.NullPointerException
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 106.167 sec - in TestSuite

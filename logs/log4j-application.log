@@ -1098,3 +1098,131 @@ Session ID: 6fc8bc34-4941-48cb-858d-2fd1464f9671
 2019-12-26 22:44:37 INFO  APITest:37 - API BeforeMethod url : https://reqres.in/api/users?page=2
 2019-12-26 22:45:17 INFO  APITest:58 - Status code is  200
 2019-12-26 22:45:18 INFO  BaseTest:100 - closeBrowser :  
+2020-01-06 12:47:25 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-06 12:47:25 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-06 12:47:25 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-06 12:47:25 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-06 12:48:02 INFO  BaseTest:48 - Starting the test :createAccount  
+2020-01-06 12:48:07 INFO  BaseTest:63 - Starting the test :register  
+2020-01-06 12:48:08 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2020-01-06 12:48:08 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2020-01-06 12:48:08 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2020-01-06 12:48:08 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2020-01-06 12:48:08 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-01-06 12:48:08 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-01-06 12:48:08 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {password=****, user=postgres}
+2020-01-06 12:48:08 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2020-01-06 12:48:08 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-01-06 12:48:09 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2020-01-06 12:48:09 INFO  LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-01-06 12:48:09 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-01-06 12:48:09 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-01-06 12:48:10 INFO  HibernateDatabaseAccess:33 - Person found:
+2020-01-06 12:48:46 ERROR BaseTest:141 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191227034945, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14236, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7ad23152-632c-4eb0-a850-d7d51c2ca582
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-06 12:48:46 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-06 12:48:46 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-06 12:49:30 INFO  APITest:59 - Status code is  200
+2020-01-06 12:49:30 INFO  BaseTest:100 - closeBrowser :  
+2020-01-06 12:51:17 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-06 12:51:17 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-06 12:51:17 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-06 12:51:17 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-06 12:51:34 INFO  BaseTest:48 - Starting the test :createAccount  
+2020-01-06 12:51:39 INFO  BaseTest:63 - Starting the test :register  
+2020-01-06 12:51:39 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2020-01-06 12:51:39 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2020-01-06 12:51:39 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2020-01-06 12:51:39 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2020-01-06 12:51:39 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-01-06 12:51:39 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-01-06 12:51:39 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {password=****, user=postgres}
+2020-01-06 12:51:39 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2020-01-06 12:51:39 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-01-06 12:51:40 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2020-01-06 12:51:40 INFO  LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-01-06 12:51:40 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-01-06 12:51:40 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-01-06 12:51:41 INFO  HibernateDatabaseAccess:33 - Person found:
+2020-01-06 12:52:17 ERROR BaseTest:141 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191227034945, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8760, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 88d0dd42-6578-44e1-a4b5-6698fa0b3026
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-06 12:52:17 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-06 12:52:17 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-06 12:52:58 INFO  APITest:59 - Status code is  200
+2020-01-06 12:52:58 INFO  BaseTest:100 - closeBrowser :  
+2020-01-06 12:54:51 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-06 12:54:51 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-06 12:54:51 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-06 12:54:51 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-06 12:55:10 INFO  BaseTest:48 - Starting the test :createAccount  
+2020-01-06 12:55:15 INFO  BaseTest:63 - Starting the test :register  
+2020-01-06 12:55:16 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2020-01-06 12:55:16 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2020-01-06 12:55:16 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2020-01-06 12:55:16 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2020-01-06 12:55:16 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-01-06 12:55:16 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-01-06 12:55:16 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {password=****, user=postgres}
+2020-01-06 12:55:16 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2020-01-06 12:55:16 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-01-06 12:55:16 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2020-01-06 12:55:16 INFO  LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-01-06 12:55:17 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-01-06 12:55:17 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-01-06 12:55:17 INFO  HibernateDatabaseAccess:33 - Person found:
+2020-01-06 12:55:54 ERROR BaseTest:141 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191227034945, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17396, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c1676256-fb1d-4b0c-abb8-a5ccfb992ae3
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-06 12:55:54 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-06 12:55:54 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-06 12:56:37 INFO  APITest:59 - Status code is  200
+2020-01-06 12:56:37 INFO  BaseTest:100 - closeBrowser :  
+2020-01-06 13:04:38 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-06 13:04:38 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-06 13:04:38 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-06 13:04:38 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-06 13:04:56 INFO  BaseTest:48 - Starting the test :createAccount  
+2020-01-06 13:05:01 INFO  BaseTest:63 - Starting the test :register  
+2020-01-06 13:05:01 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2020-01-06 13:05:01 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2020-01-06 13:05:01 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2020-01-06 13:05:01 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2020-01-06 13:05:01 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-01-06 13:05:01 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-01-06 13:05:01 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {password=****, user=postgres}
+2020-01-06 13:05:01 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2020-01-06 13:05:01 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-01-06 13:05:02 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2020-01-06 13:05:02 INFO  LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-01-06 13:05:02 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-01-06 13:05:02 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-01-06 13:05:03 INFO  HibernateDatabaseAccess:33 - Person found:
+2020-01-06 13:05:39 ERROR BaseTest:141 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191227034945, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19612, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3d2614c5-fc0a-4b12-a073-5460aeb1baaa
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-06 13:05:39 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-06 13:05:39 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-06 13:06:20 INFO  APITest:59 - Status code is  200
+2020-01-06 13:06:20 INFO  BaseTest:100 - closeBrowser :  

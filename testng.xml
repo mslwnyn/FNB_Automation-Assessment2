@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="none"   thread-count="12"  >
     <listeners>
-        <listener class-name="za.co.tshimx.fnb.utils.TestListener"/>
+        <listener class-name="za.co.tshimx.fnb.testutils.TestListener"/>
     </listeners>
 
     <test  name="Create Account: HomePage" preserve-order="true" >
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="za.co.tshimx.fnb.testcases.HomePageTest"/>
-            <class name="za.co.tshimx.fnb.api.APITest"/>
+            <class name="za.co.tshimx.fnb.api.testcases.APITest"/>
         </classes>
     </test>
     

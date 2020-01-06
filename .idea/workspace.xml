@@ -3,31 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f56da6-1f0e-437b-afe1-fa679606ac10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log4j-application.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log4j-application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/FNB_Automation_Assessment_Report_201912261525.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032518.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032530.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/screenshot_20191226032535.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/Create Account_ HomePage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-za.co.tshimx.fnb.testcases.HomePageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-za.co.tshimx.fnb.testcases.HomePageTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/za/co/tshimx/fnb/testcases/HomePageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/apiFile/api.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <caret column="142" selection-start-column="142" selection-end-column="142" />
             </state>
           </provider>
         </entry>
@@ -80,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
+            <state relative-caret-position="336">
               <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -176,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577375396856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577383369958" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -305,7 +280,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576829836002</updated>
-      <workItem from="1577375161604" duration="486000" />
+      <workItem from="1577375161604" duration="742000" />
     </task>
     <servers />
   </component>
@@ -342,13 +317,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="486000" />
+    <option name="totallyTimeSpent" value="742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +332,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5662848" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5662848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -514,7 +489,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
+        <state relative-caret-position="336">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -525,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/apiFile/api.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+          <caret column="142" selection-start-column="142" selection-end-column="142" />
         </state>
       </provider>
     </entry>
