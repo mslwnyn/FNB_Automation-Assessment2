@@ -13,23 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="111" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="111" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apiFile/api.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="142" selection-start-column="142" selection-end-column="142" />
+              <caret column="113" selection-start-column="113" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -46,20 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1246">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1232">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -321,9 +297,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,27 +340,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/pageobjects/RegisterPageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="120" column="41" selection-start-line="120" selection-start-column="41" selection-end-line="120" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/utils/HibernateDatabaseAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/pageobjects/RegisterPageObjects.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/HomePageTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/utils/HibernateDatabaseAccess.java" />
     <entry file="file://$PROJECT_DIR$/ReportsConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -396,13 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/testcases/BaseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/environment.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -417,43 +368,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/domain/UsersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/domain/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/domain/UsersPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/rest_config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -463,13 +379,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.txt" />
     <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/GetTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/BaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/BaseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java" />
+    <entry file="file://$PROJECT_DIR$/apiFile/api.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="111" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="113" selection-start-column="113" selection-end-column="114" />
         </state>
       </provider>
     </entry>
@@ -482,25 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/co/tshimx/fnb/api/APIClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apiFile/api.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="142" selection-start-column="142" selection-end-column="142" />
+        <state relative-caret-position="1232">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>

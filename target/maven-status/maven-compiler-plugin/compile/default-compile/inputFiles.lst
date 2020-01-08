@@ -1,8 +1,13 @@
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\testutils\ExtentTestManager.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\utils\JsonUtil.java
-C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\domain\User.java
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\pageobjects\RegisterPageObjects.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\utils\HibernateDatabaseAccess.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\api\APIClient.java
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\testutils\TestListener.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\utils\MobileNumberGenerator.java
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\testutils\ExtentManager.java
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\domain\User.java
+C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\pageobjects\HomePageObjects.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\domain\Person.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\utils\HibernateUtil.java
 C:\Users\Tshimologo\Documents\NetBeansProjects\FNBAutomationAssessment\src\main\java\za\co\tshimx\fnb\domain\UsersPage.java
