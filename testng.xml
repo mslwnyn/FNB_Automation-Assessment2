@@ -8,7 +8,7 @@
     <test  name="Create Account: HomePage" preserve-order="true" >
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="za.co.tshimx.fnb.testcases.HomePageTest"/>
+            <class name="za.co.tshimx.fnb.web.testcases.HomePageTest"/>
             <class name="za.co.tshimx.fnb.api.testcases.APITest"/>
         </classes>
     </test>

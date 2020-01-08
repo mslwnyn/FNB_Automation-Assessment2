@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package za.co.tshimx.fnb.testcases;
+package za.co.tshimx.fnb.web.testcases;
 
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.By;

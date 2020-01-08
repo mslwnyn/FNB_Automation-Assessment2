@@ -1,9 +1,4 @@
 za\co\tshimx\fnb\api\testcases\BaseTest.class
-za\co\tshimx\fnb\testcases\HomePageTest.class
-za\co\tshimx\fnb\pageobjects\HomePageObjects.class
+za\co\tshimx\fnb\web\testcases\BaseTest.class
 za\co\tshimx\fnb\api\testcases\APITest.class
-za\co\tshimx\fnb\pageobjects\RegisterPageObjects.class
-za\co\tshimx\fnb\testutils\ExtentTestManager.class
-za\co\tshimx\fnb\testcases\BaseTest.class
-za\co\tshimx\fnb\testutils\TestListener.class
-za\co\tshimx\fnb\testutils\ExtentManager.class
+za\co\tshimx\fnb\web\testcases\HomePageTest.class
